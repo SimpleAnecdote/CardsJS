@@ -1,0 +1,1 @@
+http://techoctave.com/c7/posts/93-simple-javascript-inheritance-using-coffeescript-extends

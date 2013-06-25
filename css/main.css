@@ -1,0 +1,13 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#table {
+	display: block;
+	height: 250px;
+	background-color: green;
+	border-radius: 105px;
+	border: 5px solid #000;
+}
+.card {
+	
+}

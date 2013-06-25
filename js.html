@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Cards :: BlackJack</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width" />
+	<script src="external/jquery-1.9.1.min.js"></script>
+	<script src="js/base.js"></script>
+	<script src="js/class.Bank.js"></script>
+	<script src="js/class.Bank.BlackJackBank.js"></script>
+	<script src="js/class.Player.js"></script>
+	<script src="js/class.Player.BlackJackPlayer.js"></script>
+	<script src="js/class.Cards.js"></script>
+	<script src="js/class.Cards.BlackJack.js"></script>
+	<script src="js/class.Gui.js"></script>
+	<script src="js/class.Gui.BlackJackGui.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+	<div id="houseName"></div>
+	<div id="houseHand"></div>
+	<div id="houseHandSum"></div>
+	<div id="housePot"></div>
+	<div id="houseBank">
+		<span id="houseBankSum"></span>
+	</div>
+	
+	<div id="playerName"></div>
+	<div id="playerHand"></div>
+	<div id="playerHandSum"></div>
+	<div id="playerPot"></div>
+	<div id="playerBank">
+		Player £
+		<span id="playerBankSum"></span>
+	</div>
+	<div id="actions">
+		<button data-action="bet" data-bet=1 class="bet">£1</button>
+		<button data-action="bet" data-bet=5 class="bet">£5</button>
+		<button data-action="bet" data-bet=25 class="bet">£25</button>
+		<button data-action="bet" data-bet=100 class="bet">£100</button>
+		<button data-action="bet" data-bet=500 class="bet">£500</button>
+		<br /><br />
+		<button data-action="play" id="play" class="action" disabled="disabled">Play</button>
+		<button data-action="hit" id="hit" class="action" disabled="disabled">Hit</button>
+		<button data-action="stand" id="stand" class="action" disabled="disabled">Stand</button>
+	</div>
+</body>
+</html>
